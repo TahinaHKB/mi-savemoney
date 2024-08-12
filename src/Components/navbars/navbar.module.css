@@ -1,0 +1,14 @@
+.Parentsbar{
+ 
+ 
+}
+
+.liens{
+    height: 100%;
+    margin: 8rem 0 0 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 3rem;
+}

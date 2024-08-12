@@ -1,0 +1,22 @@
+.parents{
+   height: 100%;
+   width: 100%;
+  
+}
+
+.gauche{
+    background-color: red;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+   
+   
+}
+.droite{
+    background-color:yellow;
+    height: 100%;
+   
+}
