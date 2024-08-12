@@ -2,12 +2,12 @@ import React, { Fragment } from 'react'
 import s from "./droite.module.css"
 import Graphe from "../Graphisme/Graphe"
 
-export default function Droite() {
+export default function Droite(props) {
     return (
         <Fragment>
             <div className={`${s.header} d-flex`}>
-                <h1>hello aurelien valavo</h1>
-                <img className={`${s.sary}`} src="logo192.png" alt="" />
+                <h1>hello {props.user.username}</h1>
+                <button onClick={props.logOut}>Sign out</button>
             </div>
             <div className={`${s.basheader} p-4 `}>
                 <div className={`${s.boxparents1} row`}>

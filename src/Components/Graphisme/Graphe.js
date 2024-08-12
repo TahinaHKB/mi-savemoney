@@ -7,7 +7,7 @@ import LineChart from "./LineChart";
 Chart.register(CategoryScale);
 
 export default function Graphe() {
-  const [chartData, setChartData] = useState({
+  const [chartData] = useState({
     labels: Data.map((data) => data.year), 
     datasets: [
       {

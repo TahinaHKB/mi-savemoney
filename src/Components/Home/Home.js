@@ -43,7 +43,7 @@ const Home = () => {
                   <Navbar />
                 </div>
                 <div className={`${s.droite} col-11`}>
-                   <Droite />
+                   <Droite logOut={handleLogOut} user={user}/>
                 </div>
             </main>
 
