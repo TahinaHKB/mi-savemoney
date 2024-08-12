@@ -8,9 +8,9 @@ function App() {
   return (
     <BrowserRouter>
         <Routes>
-          <Route exact path="/" Component={SignIn} />
+          <Route exact path="/home" Component={SignIn} />
           <Route exact path="/login" Component={Login} />
-          <Route exact path="/home" Component={Home} />
+          <Route exact path="/" Component={Home} />
         </Routes>
     </BrowserRouter>
   );

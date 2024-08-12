@@ -1,6 +1,7 @@
 .header{
     justify-content: space-between;
     text-align: center ;
+    padding: 1rem 0 ;
     align-items: center;
 }
 .boxparents1{
@@ -20,35 +21,36 @@
 .box1p1{
     display: flex;
     flex-direction: column;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     border-radius: 2rem;
     padding: 3rem ;
     width: 40rem;
+    background-color: azure;
     
 }
 
 .box2p1{
     display: flex;
     flex-direction: column;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     border-radius: 2rem;
     padding: 3rem ;
     width: 40rem;
+    background-color: azure;
     
 }
 .box1p2{
     display: flex;
     flex-direction: column;
-    border: solid 2px black;
+    /* border: solid 2px black; */
     border-radius: 2rem;
     padding: 3rem ;
     width: 40rem;
+    background-color: azure;
    
 }
 
-.box2p2{
-  
-}
+
 .box2p2 img {
 
    
@@ -67,9 +69,12 @@
 }
 
 .btn{
-    background-color: red;
-    padding: 0 5rem;
-    border-radius: 2rem;
+    font-size: 19px;
+    background-color: #15b2c9db;
+    padding: 0.5rem 5rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-weight: 600;
 }
 .titlecitation{
     margin:  1rem 0;
@@ -82,4 +87,13 @@
 
 .citation1{
    
+}
+
+.deconnexion{
+    font-size: 19px;
+    background-color: #ffb491;
+    padding: 0.5rem 3rem;
+    border: none;
+    border-radius: 1.5rem;
+    font-weight: 600;
 }

@@ -38,11 +38,11 @@ const Home = () => {
     }
     return (
         <Fragment>
-            <main className={`${s.parents} row`}>
-                <div className={`${s.gauche} col-1 `}>
+            <main className={`${s.parents} `}>
+                <div className={`${s.gauche}  `}>
                   <Navbar />
                 </div>
-                <div className={`${s.droite} col-11`}>
+                <div className={`${s.droite} `}>
                    <Droite logOut={handleLogOut} user={user}/>
                 </div>
             </main>

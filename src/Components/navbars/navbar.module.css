@@ -1,14 +1,33 @@
 .Parentsbar{
- 
+ padding: 0.5rem
  
 }
+.logo{
+    color: #ffb491;
+}
+NavLink{
+    color: red;
+}
 
+.active{
+    color: white;
+    transition: 0.5s;
+}
+
+.active:hover{
+    color: #ffb491;
+    transition: 0.5s;
+}
+.Non_active{
+    color: white;
+    transition: 0.5s;
+}
 .liens{
     height: 100%;
-    margin: 8rem 0 0 0;
+    margin: 2rem 0 0 0;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-direction: column;
-    gap: 3rem;
+    gap: 7rem;
 }
