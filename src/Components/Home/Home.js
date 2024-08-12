@@ -5,6 +5,7 @@ import { auth, db } from "../Firebase";
 import { ref, onValue } from "firebase/database";
 import s from "./home.module.css";
 import Navbar from "../navbars/Navbar";
+import Graphe from "../Graphisme/Graphe";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -37,10 +38,6 @@ const Home = () => {
     }
     return (
         <Fragment>
-            {/* <div>
-            <h1>Bienvenue {user.username}</h1>
-            <button onClick={handleLogOut}>Deconnexion</button>
-        </div> */}
             <main className={`${s.parents} row`}>
                 <div className={`${s.gauche} col-1 `}>
                   <Navbar />
@@ -49,6 +46,7 @@ const Home = () => {
                     <h1>box2</h1>
                 </div>
             </main>
+            <Graphe />
 
         </Fragment>
     );
