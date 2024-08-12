@@ -5,6 +5,7 @@ import { auth, db } from "../Firebase";
 import { ref, onValue } from "firebase/database";
 import s from "./home.module.css";
 import Navbar from "../navbars/Navbar";
+import Droite from "../Droite/Droite";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -46,7 +47,7 @@ const Home = () => {
                   <Navbar />
                 </div>
                 <div className={`${s.droite} col-11`}>
-                    <h1>box2</h1>
+                   <Droite />
                 </div>
             </main>
 
