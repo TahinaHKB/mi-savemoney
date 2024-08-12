@@ -5,6 +5,7 @@ import { auth, db } from "../Firebase";
 import { ref, onValue } from "firebase/database";
 import s from "./home.module.css";
 import Navbar from "../navbars/Navbar";
+import Droite from "../Droite/Droite";
 
 const Home = () => {
     const navigate = useNavigate();
@@ -45,7 +46,6 @@ const Home = () => {
                    <Droite />
                 </div>
             </main>
-            <Graphe />
 
         </Fragment>
     );

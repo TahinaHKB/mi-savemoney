@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import s from "./droite.module.css"
+import Graphe from "../Graphisme/Graphe"
 
 export default function Droite() {
     return (
@@ -34,7 +35,7 @@ export default function Droite() {
                     </div>
 
                     <div className={`${s.box2p1} col`}>
-
+                        <Graphe />
 
                     </div>
                 </div>

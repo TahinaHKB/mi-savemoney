@@ -27,7 +27,7 @@ export default function Graphe() {
   });
 
   return (
-    <div className="App" style={{width:"25%"}}>
+    <div className="App">
       <LineChart chartData={chartData} />
     </div>
   );
