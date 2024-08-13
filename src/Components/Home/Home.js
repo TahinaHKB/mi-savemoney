@@ -1,11 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { auth, db } from "../Firebase";
 import { ref, onValue } from "firebase/database";
+import s from "./home.module.css";
+import Navbar from "../navbars/Navbar";
+import Droite from "../Droite/Droite";
 
-
-const Home = () => {
+const Home = () =>
+{
     const navigate = useNavigate();
     const anonymosUser =
     {
@@ -35,10 +38,17 @@ const Home = () => {
         })
     }
     return (
-        <div>
-            <h1>Bienvenue {user.username}</h1>
-            <button onClick={handleLogOut}>Deconnexion</button>
-        </div>
+        <Fragment>
+            <main className={`${s.parents} `}>
+                <div className={`${s.gauche}  `}>
+                  <Navbar />
+                </div>
+                <div className={`${s.droite} `}>
+                   <Droite logOut={handleLogOut} user={user}/>
+                </div>
+            </main>
+
+        </Fragment>
     );
 }
 
