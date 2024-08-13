@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 import s from "./droite.module.css"
 import Graphe from "../Graphisme/Graphe"
-
+import ShowMoney from '../ShowMoney/ShowMoney'
 
 export default function Droite(props) {
     return (
@@ -13,26 +13,7 @@ export default function Droite(props) {
             <div className={`${s.basheader} p-4 `}>
                 <div className={`${s.boxparents1} row`}>
                     <div className={`${s.box1p1}  col`}>
-                        <div className={`${s.devise}`}>
-                            <h1>Total balance</h1>
-                            <h2>10925494 USD</h2>
-                            <div className={`${s.conversionmney} d-flex`}>
-                                <button className={`${s.btn} `} >Ariary</button>
-                                <button className={`${s.btn} `} >Franc</button>
-                            </div>
-                        </div>
-                        <h2 className={`${s.titlecitation}`}>Citation</h2>
-                        <div className={`${s.citation}`}>
-                            <div className={`${s.citation1}`}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio expedita amet iusto maxime saepe.
-                            </div>
-                            <div className={`${s.citation1}`}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio expedita amet iusto maxime saepe.
-                            </div>
-                            <div className={`${s.citation1}`}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio expedita amet iusto maxime saepe.
-                            </div>
-                        </div>
+                        <ShowMoney />
                     </div>
 
                     <div className={`${s.box2p1} col`}>
