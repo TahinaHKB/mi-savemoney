@@ -68,7 +68,7 @@ export default function Droite(props) {
                     </div>
 
                     <div className={`${s.box2p2} col    `}>
-                        <img src="image/1.jpg" alt="" />
+                        <img src="image/4.png" alt="" />
                     </div>
 
 
