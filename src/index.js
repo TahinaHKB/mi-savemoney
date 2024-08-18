@@ -4,7 +4,7 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { Historique } from './Components/Historique';
+import { Historique } from './Components/Historique/Historique';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

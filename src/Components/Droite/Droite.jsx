@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import s from "./droite.module.css"
 import Graphe from "../Graphisme/Graphe"
 import ShowMoney from '../ShowMoney/ShowMoney'
-import { Historique } from '../Historique/Historique'
+
 
 export default function Droite(props) {
     return (
@@ -24,19 +24,7 @@ export default function Droite(props) {
                 </div>
 
 
-                <div className={`${s.boxparents2} row`}>
-
-                    <div className={`${s.box1p2} col `}>
-                        <Historique></Historique>
-                    </div>
-
-                    {/* <div className={`${s.box2p2} col    `}>
-                        <img src="image/1.jpg" alt="" />
-                    </div> */}
-
-
-
-                </div>
+                
             </div>
 
 
