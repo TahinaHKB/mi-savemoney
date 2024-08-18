@@ -5,18 +5,14 @@ const Formulaire = () => {
             <form >
 
                 <label >Objetctif :</label>
-                <input type="text" name="" id="" />
+                <input type="text"  id="Objectif" /><br />
+                <label >Date :</label> <input type="date"  id="Date" />
                 <input type="button" value="Envoyer" />
             </form>
-            <form >
-                
-             
 
-
-            </form>
 
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">
-                Open modal
+                Type
             </button>
 
 
@@ -32,16 +28,25 @@ const Formulaire = () => {
 
 
                         <div class="modal-body">
-                        <select name="" id="">
-                    <option value="">Depense </option>
-                    <option value="">revenue    </option>
-                </select> 
+                            <form >
+                                <select name="" id="">
+                                    <option value="Depense">Depense </option>
+                                    <option value="Revenue">revenue    </option>
+                                </select> <br />
+                                <label >Nom :</label><input type="text" name="" id="" /> <br />
+                                <label >Coût :</label><input type="text" name="" id="" /><br />
+                                <input type="checkbox" name="" id="" /><label >x1</label><br />
+                                <strong>Or</strong><br />
+                                <input type="text" name="" id="" /><label>Periode(Jour)</label>
+                                <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Envoyer</button>
+                        </div>
+                            </form>
+
                         </div>
 
 
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                        </div>
+                        
 
                     </div>
                 </div>
