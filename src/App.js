@@ -9,13 +9,13 @@ import '../src/Components/Historique';
 function App() {
   return (
     <BrowserRouter>
-        <Routes>
-          <Route exact path="/home" Component={SignIn} />
-          <Route exact path="/login" Component={Login} />
-          <Route exact path="/" Component={Home} />
-        </Routes>
+      <Routes>
+        <Route exact path="/home" Component={SignIn} />
+        <Route exact path="/login" Component={Login} />
+        <Route exact path="/" Component={Home} />
+      </Routes>
     </BrowserRouter>
-    
+
   );
 }
 
