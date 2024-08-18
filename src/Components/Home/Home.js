@@ -7,7 +7,8 @@ import s from "./home.module.css";
 import Navbar from "../navbars/Navbar";
 import Droite from "../Droite/Droite";
 
-const Home = () => {
+const Home = () =>
+{
     const navigate = useNavigate();
     const anonymosUser =
     {
