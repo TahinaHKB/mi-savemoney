@@ -3,6 +3,7 @@ import s from "./droite.module.css"
 import Graphe from "../Graphisme/Graphe"
 import ShowMoney from '../ShowMoney/ShowMoney'
 
+
 export default function Droite(props) {
     return (
         <Fragment>
@@ -49,12 +50,11 @@ export default function Droite(props) {
                     </div>
 
                     <div className={`${s.box2p2} col    `}>
-                        <img src="image/4.png" alt="" />
+                        <img src="image/1.jpg" alt="" />
                     </div>
 
 
-
-                </div>
+                
             </div>
 
 

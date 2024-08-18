@@ -5,10 +5,9 @@ import { auth, db } from "../Firebase";
 import { ref, onValue } from "firebase/database";
 import s from "./home.module.css";
 import Navbar from "../navbars/Navbar";
-import Droite from "../Droite/Droite";
+import ModuleManage from "../Droite/ModuleManage";
 
-const Home = () =>
-{
+const Manage = () => {
     const navigate = useNavigate();
     const anonymosUser =
     {
@@ -44,7 +43,7 @@ const Home = () =>
                   <Navbar />
                 </div>
                 <div className={`${s.droite} `}>
-                   <Droite logOut={handleLogOut} user={user}/>
+                  <ModuleManage />
                 </div>
             </main>
 
@@ -52,4 +51,4 @@ const Home = () =>
     );
 }
 
-export default Home;
+export default Manage;
