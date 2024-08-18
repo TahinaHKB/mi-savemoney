@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import s from "./droite.module.css"
 import Graphe from "../Graphisme/Graphe"
 import ShowMoney from '../ShowMoney/ShowMoney'
-import { Historique } from '../Historique'
+import { Historique } from '../Historique/Historique'
 
 export default function Droite(props) {
     return (
