@@ -17,7 +17,7 @@ export default function Navbar() {
                     <NavLink to="/" className={(nav) => (nav.isActive ? s.active : s.Non_active) + ` ${s.linkhover} `} >
                         <AiOutlineHome size={40} />
                     </NavLink>
-                    <NavLink to="/" className={(nav) => (nav.isActive ? s.active : s.Non_active) + ` ${s.linkhover} `} >
+                    <NavLink to="/manage" className={(nav) => (nav.isActive ? s.active : s.Non_active) + ` ${s.linkhover} `} >
                         <FaMoneyBillTrendUp size={40} />
                     </NavLink>
                     <NavLink to="/" className={(nav) => (nav.isActive ? s.active : s.Non_active) + ` ${s.linkhover} `} >

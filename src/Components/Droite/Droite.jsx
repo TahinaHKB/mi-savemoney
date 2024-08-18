@@ -21,40 +21,6 @@ export default function Droite(props) {
 
                     </div>
                 </div>
-
-
-                <div className={`${s.boxparents2} row`}>
-
-                    <div className={`${s.box1p2} col `}>
-                        <div className={`${s.devise}`}>
-                            <h1>Total balance</h1>
-                            <h2>10925494 USD</h2>
-                            <div className={`${s.conversionmney} d-flex`}>
-                                <button className={`${s.btn} `} >ariary</button>
-                                <button className={`${s.btn} `} >frcan</button>
-                            </div>
-                        </div>
-                        <h2 className={`${s.titlecitation}`}>Citation</h2>
-                        <div className={`${s.citation}`}>
-                            <div className={`${s.citation1}`}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio expedita amet iusto maxime saepe.
-                            </div>
-                            <div className={`${s.citation1}`}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio expedita amet iusto maxime saepe.
-                            </div>
-                            <div className={`${s.citation1}`}>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio expedita amet iusto maxime saepe.
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className={`${s.box2p2} col    `}>
-                        <img src="image/1.jpg" alt="" />
-                    </div>
-
-
-
-                </div>
             </div>
 
 
