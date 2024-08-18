@@ -1,10 +1,14 @@
 import React from "react";
+import { Historique } from "../Historique/Historique";
+import Formulaire from "../Formulaire/Formulaire";
 
-const ModuleManage = () =>
-{
+const ModuleManage = () => {
     return (
-        <h1>Manage</h1>
-        
+        <div>
+            <h1>Manage</h1>
+            <Formulaire/>
+            <Historique></Historique>
+        </div>
     )
 
 }
